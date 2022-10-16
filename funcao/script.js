@@ -56,3 +56,19 @@ console.log(multiplicarPorDois(2));
 
 const multiplicarPorDois2 = x => x*2;
 console.log(multiplicarPorDois2(5));
+
+//função recursiva
+function recursao(j){
+    if(j -1 < 2){
+        console.log("Recursão parou");
+    }else if( j % 2 != 0){
+        console.log("Número impar");
+        recursao(j - 1)
+    }else{
+        console.log("Número par")
+        recursao(j - 2)
+    }
+}
+recursao(39);
+recursao(10);
+recursao(50);
