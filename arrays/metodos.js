@@ -24,3 +24,23 @@ let pessoa = {
 console.log(pessoa.profissao);
 console.log(pessoa.idade);
 console.log(pessoa.programar());
+
+//QUANDO CRIAMOS OBJETOS PODEMOS ADICIONAR E DELETAR PROPRIEDADES AO LONGO DO PROGRAMA
+
+let carro = {
+    marca : "VW",
+    portas : 4,
+    eletrico : false,
+    motor : 1.0
+}
+
+console.log(carro.eletrico);
+
+console.log("-------------------------")
+console.log(carro.eletrico);
+
+//carro.coloracao = preta;
+
+//console.log(carro.coloracai);
+
+console.log(carro);
